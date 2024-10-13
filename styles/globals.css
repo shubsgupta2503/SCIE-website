@@ -1,0 +1,10 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+*{
+    font-family: 'Poppins', sans-serif;
+    /* scroll-behavior: smooth; */
+}
+li{
+    list-style: none;
+}

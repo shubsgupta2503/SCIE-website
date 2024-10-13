@@ -1,0 +1,17 @@
+@keyframes flyfromtop {
+    from{
+        opacity:0;
+        top: 70%;
+    }
+    to{
+        opacity: 1;
+        top:100%;
+    }
+}
+@media screen and (min-width:1024px){
+    .header-dropdown{
+        opacity: 0;
+        top: 100%;
+        animation: flyfromtop .3s ease-in-out .1s forwards;
+    }
+}
